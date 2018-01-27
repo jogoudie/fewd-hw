@@ -1,0 +1,46 @@
+body {
+color:#05080C;
+font-family: sans-serif;
+font-size: 18px;
+background: #F6F6F6;
+line-height: 1.5;
+}
+
+
+p {
+	font-family: Georgia, times, serif;
+}
+
+header {
+	padding: 0 100px;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a: visited {
+    color: #62009b;
+    text-decoration: none;
+}
+
+article {
+	padding: 0 100px;
+}
+
+img { 
+	float: right;
+	margin-left: 20px;
+}
+
+th {
+	background: #222;
+	padding: 10px;
+	color: white;
+}
+
+td {
+	background: #eee;
+	padding: 10px;
+}
