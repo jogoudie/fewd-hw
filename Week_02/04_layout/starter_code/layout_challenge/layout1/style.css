@@ -1,0 +1,29 @@
+.placeholder {
+	background: grey;
+	border: 5px solid white;
+	min-height: 100px; 
+	padding: 10px;
+}
+
+
+  .column {
+  	background: gray;
+  	border: 5px solid white;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    min-height: 400px; 
+}
+
+.column2 {
+  	background: gray;
+  	border: 5px solid white;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 400px; 
+}
+
+.pageFooter {
+	clear:both;
+}
