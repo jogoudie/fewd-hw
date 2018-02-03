@@ -16,12 +16,20 @@
 }
 
 body {
- color: #f0efef;
+  color: #f0efef;
   font-size: 26px;
   line-height: 1.4;
   color: #606161;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
+}
+
+
+h1 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+
 }
 
 .container {
@@ -31,9 +39,9 @@ body {
 
 .intro { 
 	height: 700px;
-    background: url(../images/header_bg.jpg) top center #131e27;
+  background: url(../images/header_bg.jpg) top center #131e27;
 	background-size: cover;
-  	padding-top: 32px;
+  padding-top: 32px;
  }
 
  .button {
@@ -41,23 +49,32 @@ body {
  	border-radius: 5px;
  	font-size: 28px;
  	padding: 12px 0;
-    width: 280px;
-    margin: 0 auto;
-    display: block;
+  width: 280px;
+  margin: 0 auto;
+  display: block;
+  font-weight: 800;
+  text-decoration: none;
  }
 
 .btnnow {
-	 background-color: yellow;
-	 text-decoration: none;
-	 padding: 10px; 
+	 background-color: #f9e42e;
+   color: #033048;
+   font-weight: 40px;
+}
 
+
+.signup {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center
 }
 
 .btnsignup {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
 
 }
-
-
 
 .intro .logo {
 	color: white;
@@ -77,25 +94,60 @@ body {
 
 
 .Benefits {
-
+  padding: 40px;
 }
+
+.Benefits li {
+    list-style: disc;
+    margin: 30px 0 0 80px;
+    line-height: .5;
+}
+
+
+
 
 .quote {
-
+  background: url(../images/testimonial_bg.jpg) top center #131e27;
+  background-size: cover;
+  padding: 70px 0 70px;
+  color: #fff;
 }
 
-.signup {
 
+.testimonial{
+  font-size: 36px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 0 auto;
 }
 
-.buttonsignup {
-
-}
+ span { 
+  font-style: bold; 
+ }
 
 .pagefooter {
+  background: black;
+  padding: 30px;
+  text-align: center}
 
-}
+
+
+  .pagefooter .container {
+    font-size: 40px;
+    color: #f9e42e;
+    font-weight: 800;
+    text-align: center
+  }
 
 .footer {
 
+}
+
+.copyright {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center
 }

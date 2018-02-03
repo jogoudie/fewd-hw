@@ -1,0 +1,36 @@
+div p {background: pink;
+	padding: 10px;
+}
+
+h1 {
+	font-family: helvetica;
+	color:#36009E; 
+	font-size: 60px;
+	padding: 10px;
+}
+
+.container {
+	width:100%;
+
+}
+
+.col1 {
+	width: 50%;
+	float: right;
+
+}
+
+.container2 {
+	width:100%;
+}
+
+.col3 {
+	width: 33.33%;
+	float: right;
+	padding: 10px 0 10px 0;
+
+}
+
+.footer {
+
+}
