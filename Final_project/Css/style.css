@@ -1,4 +1,4 @@
-* {
+               * {
   -moz-box-sizing: border-box; /* Firexfox */
   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
   box-sizing: border-box; /* IE */
@@ -33,17 +33,47 @@ a {
 }
 
 
-header {
+.logo {
   background: linear-gradient(to right, rgba(67,44,179,100), rgba(153,87,203,100));
-  padding: 5px 0;
+  padding: 20px 25px 20px 25px;
   overflow: hidden;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
-header .logo {
-  color: #fff;
-  float: left;
-  margin-top: 30px
+
+.navigation {
+    width: 750px;
+    float: right;
 }
+
+.horizontal-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.horizontal-nav li{
+    display: inline-block;
+}
+
+.main-nav {
+    font-size: 18px;
+    color: white;
+    overflow:hidden;
+}
+.main-nav li {
+    margin-right: 30px;
+}
+
+
+.main-nav a {
+    color: white;
+}
+
+.main-nav strong {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Oswald';
+}
+
 
 header nav {
   float: right;
@@ -84,7 +114,7 @@ color: #4A4A4A;
     margin-left: 0;
 }
 
-.MeetBentleeConatiner{
+.MeetBentleeSection{
     display:flex;
     border-top: 1px solid #979797;
     padding: 50px 70px 50px 70px;
