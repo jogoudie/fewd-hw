@@ -1,0 +1,7 @@
+var theDemoArray= ["baku", "moghadishu", "Ulan Baatar"];
+var theDemoCitiesImages=[ "baku.jpg", ]
+
+
+var mySection = jQuery("#theselectorFormElement").val();
+
+for(i=0;i<)

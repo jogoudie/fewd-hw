@@ -32,65 +32,47 @@ a {
   margin: 0 auto;
 }
 
+.container-fluid{
 
-.logo {
+  /*padding:0px!important;*/
+}
+
+.gradient {
   background: linear-gradient(to right, rgba(67,44,179,100), rgba(153,87,203,100));
-  padding: 20px 25px 20px 25px;
-  overflow: hidden;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+      padding: 20px 25px 20px 25px;
+
 }
 
-.navigation {
-    width: 750px;
-    float: right;
-}
+/*.icons {
+  max-width: 145px;
+}*/
 
-.horizontal-nav {
-    padding: 0;
-    list-style: none;
-}
 
-.horizontal-nav li{
-    display: inline-block;
-}
-
-.main-nav {
+.navbar-dark .navbar-nav a.nav-link  {
     font-size: 18px;
     color: white;
+    text-transform: uppercase;
     overflow:hidden;
 }
-.main-nav li {
-    margin-right: 30px;
-}
 
-
-.main-nav a {
+/*.navbar-light .navbar-nav .nav-link {
     color: white;
+  }
+*/
+.navbar-dark .navbar-toggler {
+    border-color: white;
 }
 
-.main-nav strong {
-    text-transform: uppercase;
-    font-size: 25px;
-    font-family: 'Oswald';
-}
-
-
-header nav {
-  float: right;
-  margin-top: 15px;
-}
-header nav ul li {
-  display: inline-block;
-  margin: 0 0 0 40px;
-  font-size: 24px;
-}
-header nav ul li a {
-  color: white;
-}
 
 h1 {
 font-size: 36px;
 color: #4A4A4A;
+font-weight:bold;
+}
+
+#carouselExampleIndicators {
+  width: 100%;
 }
 
 .MainContent {
@@ -98,17 +80,52 @@ color: #4A4A4A;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.iconfeature {
+   max-width: 140px;
+}
 
-
+.iconfeature  p {
+  text-align: center;
+   
+   }
 .IconContainer {
     display:flex;
     justify-content: center;
-    padding: 60px;
+    padding: 50px 0 10px 0;
+    margin: 0 0 0 60px;
 }
 
-.IconContainer .iconfeature {
- margin: 0 0 0 60px;
+
+.photogallery {
+  padding: 15px;
 }
+
+.hero {
+    background-color: gray;
+    background-image: url('../Pictures/barpage.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.hero-block {
+    padding: 50px;
+}
+
+.block-heading {
+    color: #593f86;
+    margin: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.block-copy {
+    margin: 80px;
+}
+
+
+
 
 .IconContainer .iconfeature:first-child {
     margin-left: 0;
@@ -116,24 +133,50 @@ color: #4A4A4A;
 
 .MeetBentleeSection{
     display:flex;
-    border-top: 1px solid #979797;
     padding: 50px 70px 50px 70px;
     margin-bottom: 40px;
 }
 
 .MeetBentlee {
-      display: inline-block;
+      border-top: 1px solid #979797;
+      padding-top: 40px;
+
+}
+
+.MeetBentlee img  {
+      float: right ;
+      padding-left: 20px;
+}
+
+.MeetBentleeTwo img {
+  float: right ;
+   padding: 0 50px 20px 5px;
+
 }
 
 footer {
   background: #583E84;
-  padding: 10px 0 10px;
+  padding: 20px 0 20px 0;
   text-align: center;
+
 }
 
 footer ul li {
   display: inline-block;
   list-style: none;
-  margin: 0 26px 75px;
+  color: white; 
 }
+
+@media only screen and (max-width: 960px) {
+   
+.MeetBentlee img {
+      float: none;
+      padding-bottom: 20px;
+}
+.MeetBentleeTwo img {
+      float: none;
+      padding-bottom: 20px;
+}
+
+
 
