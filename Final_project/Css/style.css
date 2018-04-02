@@ -66,10 +66,17 @@ a {
 
 
 h1 {
-font-size: 36px;
+font-size: 55px;
 color: #4A4A4A;
 font-weight:bold;
 }
+
+h2 {
+  font-size: 35px;
+  color: #414042;
+font-weight:bold;
+}
+
 
 #carouselExampleIndicators {
   width: 100%;
@@ -109,6 +116,15 @@ font-weight:bold;
     padding: 20px;
 }
 
+
+.hero2 {
+  background-image: url('../Pictures/galleryheader.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
 .hero-block {
     padding: 50px;
 }
@@ -133,13 +149,13 @@ font-weight:bold;
 
 .MeetBentleeSection{
     display:flex;
-    padding: 50px 70px 50px 70px;
+    padding: 20px 70px 20px 70px;
     margin-bottom: 40px;
 }
 
 .MeetBentlee {
       border-top: 1px solid #979797;
-      padding-top: 40px;
+      padding-top: 20px;
 
 }
 
@@ -148,9 +164,30 @@ font-weight:bold;
       padding-left: 20px;
 }
 
-.MeetBentleeTwo img {
+.MeetBentleeRight {
+  padding-top: 0px;
+}
+
+.MeetBentleeRight img {
   float: right ;
-   padding: 0 50px 20px 5px;
+   padding: 0 50px 0 5px;
+
+}
+
+.MeetBentleeLeft {
+  border-top: 1px solid #979797;
+  padding-top: 40px;
+
+}
+
+.MeetBentleeLeft img {
+  float: left ;
+   padding: 0 40px 10px 0;
+}
+
+.MeetBentleeRightLine {
+  border-top: 1px solid #979797;
+  padding-top: 40px;
 
 }
 
@@ -178,5 +215,16 @@ footer ul li {
       padding-bottom: 20px;
 }
 
+.MeetBentleeRight img {
+  float: none ;
+   padding-bottom: 20px;
 
+}
+
+.MeetBentleeLeft img {
+  float: none ;
+  padding-bottom: 20px;
+}
+
+}
 
